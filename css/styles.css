@@ -1,0 +1,113 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #080808;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos da seção do herói */
+#hero {
+    background-color: #000000; /* Cor escura para o fundo */
+    background-image: url();
+    color: #00ff00; /* Cor verde neon */
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.animated-image img{
+    width: 300px;
+    height: 300px;
+    background-image: url('img/video.gif');
+    background-size: cover;
+    margin: 0 auto;
+    border: 2px solid #0f0; /* Borda neon */
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Estilos futuristas extras */
+body {
+    background-color: #000000; /* Cor de fundo escura */
+    font-family: 'Arial', sans-serif;
+    color: #00ff00; /* Cor de texto verde neon */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #00ff00; /* Borda verde neon */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3); /* Sombra neon */
+}
+
+/* Estilos da seção de Sobre Mim */
+#about {
+    background-color: #000000;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Estilos da seção de Projetos e Contato */
+#projects, #contact {
+    background-color: #000000;
+    text-align: center;
+    padding: 50px 0;
+}
